@@ -22,3 +22,29 @@ addButton.addEventListener('click' , () => {
     const resultSpan = document.getElementById('sub-result');
     resultSpan.textContent = Number(input3.value) - Number(input4.value);
 })
+
+const subButton = document.getElementById('mult-button');
+
+
+addButton.addEventListener('click' , () => {
+    const input5 = document.getElementById('mult-one');
+    const input6 = document.getElementById('mult-two');
+    
+    
+
+    const resultSpan = document.getElementById('mult-result');
+    resultSpan.textContent = Number(input5.value) * Number(input6.value);
+})
+
+const subButton = document.getElementById('div-button');
+
+
+addButton.addEventListener('click' , () => {
+    const input7 = document.getElementById('div-one');
+    const input8 = document.getElementById('div-two');
+    
+    
+
+    const resultSpan = document.getElementById('div-result');
+    resultSpan.textContent = Number(input7.value) / Number(input8.value);
+})
