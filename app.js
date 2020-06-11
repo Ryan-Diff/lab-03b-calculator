@@ -13,7 +13,7 @@ addButton.addEventListener('click' , () => {
 const subButton = document.getElementById('sub-button');
 
 
-addButton.addEventListener('click' , () => {
+subButton.addEventListener('click' , () => {
     const input3 = document.getElementById('sub-one');
     const input4 = document.getElementById('sub-two');
     
@@ -23,10 +23,10 @@ addButton.addEventListener('click' , () => {
     resultSpan.textContent = Number(input3.value) - Number(input4.value);
 })
 
-const subButton = document.getElementById('mult-button');
+const multButton = document.getElementById('mult-button');
 
 
-addButton.addEventListener('click' , () => {
+multButton.addEventListener('click' , () => {
     const input5 = document.getElementById('mult-one');
     const input6 = document.getElementById('mult-two');
     
@@ -36,10 +36,10 @@ addButton.addEventListener('click' , () => {
     resultSpan.textContent = Number(input5.value) * Number(input6.value);
 })
 
-const subButton = document.getElementById('div-button');
+const divButton = document.getElementById('div-button');
 
 
-addButton.addEventListener('click' , () => {
+divButton.addEventListener('click' , () => {
     const input7 = document.getElementById('div-one');
     const input8 = document.getElementById('div-two');
     
