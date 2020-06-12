@@ -6,20 +6,6 @@ import {addtest, subtest, multtest, divtest} from './utils.js'
 
 const test = QUnit.test;
 
-test('time to test a function', function(expect) {
-    //Arrange
-    // Set up your parameters and expectations
-    const expected = true;
-    
-    //Act 
-    // Call the function you're testing and set the result to a const
-    const actual = false;
-
-    //Expect
-    // Make assertions about what is expected versus the actual result
-    expect.equal(expected, actual);
-});
-
 test('addtest', function(expect) {
     const firstnum = 2;
     const secondnum = 4;
