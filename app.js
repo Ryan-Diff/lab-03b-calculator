@@ -1,6 +1,6 @@
 import { addtest, subtest, multtest, divtest } from './test/utils.js';
 
-const assdButton = document.getElementById('sum-button');
+const addButton = document.getElementById('sum-button');
 const subButton = document.getElementById('sub-button');
 const multButton = document.getElementById('mult-button');
 const divButton = document.getElementById('div-button');
@@ -37,3 +37,5 @@ divButton.addEventListener('click', () => {
     // resultSpan.textContent = Number(input7.value) / Number(input8.value);
     resultSpan.textContent = divtest(Number(input7.value), Number(input8.value));
 });
+
+
