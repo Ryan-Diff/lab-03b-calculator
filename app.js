@@ -1,6 +1,6 @@
 import { addtest, subtest, multtest, divtest } from './test/utils.js';
 
-const addButton = document.getElementById('sum-button');
+const assdButton = document.getElementById('sum-button');
 const subButton = document.getElementById('sub-button');
 const multButton = document.getElementById('mult-button');
 const divButton = document.getElementById('div-button');
